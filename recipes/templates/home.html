@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
   <head>
     <title>Recipe App</title>
@@ -14,5 +14,37 @@
     </ul>
 
     <a href="add/">Add New Recipe</a>
+  </body>
+</html> -->
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Collection</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Welcome to the home of Recipe Collection.</h1>
+    </header>
+    <main class="container">
+      <ul class="recipe-list">
+        {% for recipe in recipes %}
+        <li class="recipe-card">
+          <a href="{{ recipe.id }}/"
+            >{{ recipe.title }} {{recipe.created_at}}</a
+          >
+        </li>
+        {% endfor %}
+      </ul>
+
+      <a class="add" href="add/">Add New Recipe</a>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2024 Recipe App</p>
+    </footer>
   </body>
 </html>
