@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Recipe App</title>
+  </head>
+  <body>
+    <h1>Recipe List</h1>
+    <ul>
+      {% for recipe in recipes %}
+      <li>
+        <a href="{{ recipe.id }}/">{{ recipe.title }} {{recipe.created_at}}</a>
+      </li>
+      {% endfor %}
+    </ul>
+
+    <a href="add/">Add New Recipe</a>
+  </body>
+</html>
