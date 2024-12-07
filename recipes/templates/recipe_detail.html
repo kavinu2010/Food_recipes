@@ -1,14 +1,20 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ recipe.title }}</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
   </head>
   <body>
-    <h1>{{ recipe.title }}</h1>
-    <h3>Ingredients:</h3>
-    <p>{{ recipe.ingredients }}</p>
-    <h3>Instructions:</h3>
-    <p>{{ recipe.instructions }}</p>
-    <a href="/">Back to Home</a>
+    <div class="container1">
+      <h1 class="recipe-title">{{ recipe.title }}</h1>
+      <h3 class="section-title">Ingredients:</h3>
+      <p class="content">{{ recipe.ingredients }}</p>
+      <h3 class="section-title">Instructions:</h3>
+      <p class="content">{{ recipe.instructions }}</p>
+      <a href="/" class="back-button">Back to Home</a>
+    </div>
   </body>
 </html>

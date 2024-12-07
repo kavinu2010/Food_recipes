@@ -33,9 +33,7 @@
       <ul class="recipe-list">
         {% for recipe in recipes %}
         <li class="recipe-card">
-          <a href="{{ recipe.id }}/"
-            >{{ recipe.title }} {{recipe.created_at}}</a
-          >
+          <a href="{{ recipe.id }}/">{{ recipe.title }} </a>
         </li>
         {% endfor %}
       </ul>
