@@ -1,7 +1,6 @@
 <h1>Food Recipes</h1>
 
 
-
 <h2>Features</h2>
 
 Users can add an image, title, ingredients, and description for a food recipe. They can also add and remove recipes. Admins have the ability to manage users from the admin portal.
@@ -13,11 +12,10 @@ Cross-Platform: Automatically detects whether you're using Windows or macOS and 
 
 <h2>
   Technologies Used </h2>
-
-1. Programming Language
+Programming Language
 Python 3.x
 The core language used for backend development, known for its readability and versatility.
-2. Web Framework
+Web Framework
 Django
 A high-level Python web framework that encourages rapid development and clean, pragmatic design.
 Key Features Used:
