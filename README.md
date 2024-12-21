@@ -2,7 +2,7 @@ Food Recipes
 
 Description
 
-Food Recipes is a curated collection of delicious and easy-to-follow recipes from around the world. Whether you're a beginner cook or a seasoned chef, you'll find something to inspire your next meal.
+Users can add an image, title, ingredients, and description for a food recipe. They can also add and remove recipes. Admins have the ability to manage users from the admin portal.
 
 Features
 
