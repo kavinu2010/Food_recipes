@@ -1,24 +1,18 @@
-Food Recipes
+<h1>Food Recipes</h1>
 
-Description
+
+
+<h2>Features</h2>
 
 Users can add an image, title, ingredients, and description for a food recipe. They can also add and remove recipes. Admins have the ability to manage users from the admin portal.
 
-Features
+Shutdown: Instantly powers off your system with a single click.
+Restart: Reboots your system for quick restarts.
+Logout: Logs out the current user from the system.
+Cross-Platform: Automatically detects whether you're using Windows or macOS and applies the appropriate system commands.
 
-Diverse Cuisine: Recipes spanning various cultures and cuisines.
-Easy Instructions: Step-by-step guides for hassle-free cooking.
-Nutritional Information: Detailed nutritional facts for each recipe.
-Search Functionality: Quickly find recipes by ingredients or name.
-
-Usage
-
-Browse through the recipes folder to find your favorite dishes. Each recipe is organized in its own markdown file with detailed instructions and ingredients.
-
-
-Technologies Used
-
-Your Food Recipes application leverages a combination of modern technologies and frameworks to deliver a seamless and efficient user experience. Below is a breakdown of the technologies utilized in this project:
+<h2>
+  Technologies Used </h2>
 
 1. Programming Language
 Python 3.x
@@ -31,3 +25,11 @@ Django ORM: Simplifies database interactions.
 Django Templates: Facilitates dynamic HTML generation.
 Authentication System: Manages user accounts and permissions.
 
+<h2>Prerequisites</h2>
+
+Python 3.x installed on your system.
+Administrator privileges (required for shutdown and restart commands, especially on macOS).
+
+
+
+ 
